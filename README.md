@@ -2,7 +2,7 @@
 ### Segurança dos dados
 > a. Apontar para o repositório externo do Github
 
-> b. Apagar a pasta "config" e só ler apenas a que criou no sistema local
+> b. Apagar a pasta "config" e só ler apenas a que está no Github
 
 > c. Fazer estes apontamentos em application properties:
 ````
