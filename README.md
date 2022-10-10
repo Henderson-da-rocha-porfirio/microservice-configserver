@@ -1,4 +1,4 @@
-# CONFIG SERVER: LENDO CONFIGS NUMA PASTA DO SISTEMA LOCAL
+# CONFIG SERVER: LENDO CONFIGS DO GITHUB
 ### Segurança dos dados
 > a. Apontar para o repositório externo do Github
 
