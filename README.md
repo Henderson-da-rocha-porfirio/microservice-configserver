@@ -62,7 +62,7 @@ Se você possui um aplicativo Spring Boot existente e deseja adicionar o Spring 
 ````
 mvn spring-boot:build-image
 ````
-### Necessário criar uma nova imagem docker para cada microserviço(fazer na sequência para cada um deles):
+### Necessário criar uma nova imagem docker para cada microserviço que contenha um Dockerfile(fazer na sequência para cada um deles):
 > i. Criando um novo jar: mvn clean install
 >
-> ii. Criando imagem Docker: docker build . -t hendersonporfirio/accountsconfigserver
+> ii. Criando imagem Docker por exemplo: docker build . -t hendersonporfirio/accountsconfigserver
