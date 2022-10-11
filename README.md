@@ -48,3 +48,17 @@ Se você possui um aplicativo Spring Boot existente e deseja adicionar o Spring 
 > - 3.Ele pode ler as configuraçoes de um repositório centralizado e expõe todas as suas propriedades através de Endpoints Rest.
 > - 4.Configurar application.properties, inclusive com a porta: server.port=8071
 > - 5.Criar uma pasta config em Resources chamada config e colocar as properties correspondentes.
+
+## Criando imagem Docker para configserver através de buildpacks:
+### Inserir no pom:
+````
+      <configuration>
+				<image>
+					<name>hendersonporfirio/${project.artifactId}</name>
+				</image>
+	  </configuration>
+	  
+### Rodar no diretório do projeto:
+````
+mvn spring-boot:build-image
+````
