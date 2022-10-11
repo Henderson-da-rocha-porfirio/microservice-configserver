@@ -57,8 +57,12 @@ Se você possui um aplicativo Spring Boot existente e deseja adicionar o Spring 
 					<name>hendersonporfirio/${project.artifactId}</name>
 				</image>
 	  </configuration>
-	  
+````  
 ### Rodar no diretório do projeto:
 ````
 mvn spring-boot:build-image
 ````
+### Necessário criar uma nova imagem docker para cada microserviço(fazer na sequência para cada um deles):
+> i. Criando um novo jar: mvn clean install
+>
+> ii. Criando imagem Docker: docker build . -t hendersonporfirio/accountsconfigserver
